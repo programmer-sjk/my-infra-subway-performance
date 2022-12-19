@@ -49,8 +49,8 @@ public class LineResponse {
 
     private static List<StationResponse> assembleStations(Line line) {
         return line.getStations().stream()
-                .map(StationResponse::of)
-                .collect(Collectors.toList());
+            .map(StationResponse::of)
+            .collect(Collectors.toList());
     }
 
     public Long getId() {
