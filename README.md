@@ -225,7 +225,7 @@ CREATE INDEX idx_covid_hospital_id_and_programmer_id_and_member_id ON covid(hosp
 ```
 
 1.5 **서울대병원에 다닌 30대 환자들을 운동 횟수별로 집계하세요. (user.Exercise)**
-- 아래 쿼리를 작성하였고 1.4와 동일한 인덱스를 타기 떄문에 성능 이슈는 없었습니다.
+- 아래 쿼리를 작성하였고 1.4와 동일한 인덱스를 타기 떄문에 성능 이슈는 따로 없었습니다.
 
 ```sql
 select p.exercise, count(1)
